@@ -1,0 +1,37 @@
+.employee-page {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.employee-nav {
+  margin: 20px auto;
+}
+
+.employee-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employee-nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.employee-nav button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.employee-nav button:hover {
+  background-color: #0056b3;
+}
+
+.employee-content {
+  margin-top: 30px;
+}

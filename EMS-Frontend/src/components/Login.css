@@ -1,0 +1,66 @@
+/* Login Page Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Attractive gradient */
+  }
+  
+  .login-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    color: #4CAF50; /* Attractive color for title */
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #4CAF50; /* Green border when focused */
+    outline: none;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .login-btn:active {
+    background-color: #388e3c;
+  }
+  

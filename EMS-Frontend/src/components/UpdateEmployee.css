@@ -1,0 +1,85 @@
+.update-employee-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height for vertical centering */
+  background-color: #f9f9f9;
+}
+
+.update-employee-container {
+  margin: 20px;
+  padding: 30px; /* Increased padding for a better layout */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Slightly rounded corners */
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better aesthetics */
+}
+
+.update-employee-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* Add margin for space below the title */
+}
+
+.update-employee-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Added gap between form elements */
+}
+
+.update-employee-container label {
+  font-size: 14px; /* Label font size */
+  font-weight: bold;
+  color: #555; /* Darker text color for labels */
+}
+
+.update-employee-container input,
+.update-employee-container select,
+.update-employee-container button {
+  margin: 0; /* Remove unnecessary margins */
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Rounded corners */
+  width: 100%; /* Ensure input takes full width */
+  box-sizing: border-box; /* Include padding and borders in width calculation */
+}
+
+.update-employee-container input:focus,
+.update-employee-container select:focus {
+  border-color: #007bff;
+  outline: none; /* Remove default outline */
+}
+
+.update-employee-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.update-employee-container button:hover {
+  background-color: #0056b3}
+
+.update-employee-container button:active {
+  background-color: #004085;
+}
+
+.update-employee-container .back-btn {
+  text-align: center;
+  background-color: #6c757d;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%; /* Ensure the back button stretches to full width */
+}
+
+.update-employee-container .back-btn:hover {
+  background-color: #5a6268;
+}

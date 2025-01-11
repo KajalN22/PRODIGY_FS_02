@@ -1,0 +1,116 @@
+/* Admin Page container */
+.admin-page-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    padding: 40px 0;
+    background: url('https://img.freepik.com/free-photo/view-arrangement-with-keyboard-notebooks_23-2148847749.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Admin page heading */
+  .admin-page-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  /* Content section styling */
+  .admin-content {
+    margin-top: 20px;
+  }
+  
+  .admin-content h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .admin-content p {
+    font-size: 1.2rem;
+    color: #e1e1e1;
+  }
+  
+  /* Navbar container for buttons */
+  .navbar {
+    display: flex;
+    justify-content: center; /* Center navbar links horizontally */
+    gap: 20px;
+    margin-top: 30px; /* Space between content and navbar */
+    width: 100%; /* Ensure navbar is 100% width */
+    position: relative; /* To make sure it's placed below the text */
+  }
+  
+  /* Button styling for navbar links */
+  .navbar-button {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: auto; /* Remove fixed width */
+  }
+  
+  .navbar-button:hover {
+    background-color: #005f72;
+    transform: scale(1.05);
+  }
+  
+  .navbar-button:focus {
+    outline: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .admin-page-container {
+      padding: 20px;
+    }
+  
+    .navbar {
+      flex-direction: column; /* Stack navbar links vertically on small screens */
+      margin-top: 20px;
+      gap: 10px;
+    }
+  
+    .navbar-button {
+      font-size: 1.1rem;
+      padding: 10px 20px;
+      width: 90%;
+    }
+  
+    .admin-page-container h1 {
+      font-size: 2rem;
+    }
+  
+    .admin-content h2 {
+      font-size: 1.8rem;
+    }
+  
+    .admin-content p {
+      font-size: 1rem;
+    }
+
+    /* Add this to your AdminPage.css */
+
+.back-button {
+  background-color: #6c757d; /* Gray background for the back button */
+  color: white;
+}
+
+.back-button:hover {
+  background-color: #5a6268; /* Darker gray on hover */
+}
+
+  }
+  
